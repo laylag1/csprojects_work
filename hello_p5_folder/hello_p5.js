@@ -1,12 +1,13 @@
 function setup() {
   createCanvas(400, 400);
+  background(0);
 }
 
 let x = 100;
 let y = 100;
 
 function draw() {
-  background(0);
+
   fill(255,0,0);
   ellipse(mouseX, mouseY, 50, 50);
 
