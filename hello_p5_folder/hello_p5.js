@@ -10,7 +10,6 @@ let w = 50;
 let wSize = 1;
 
 function draw() {
-  background(0);
   fill(255,0,0);
   ellipse(x, y, w, 50);
 
