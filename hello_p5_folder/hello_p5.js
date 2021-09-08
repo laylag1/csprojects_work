@@ -9,8 +9,8 @@ function setup() {
   }
 }
 
-let x = mouseX;
-let y = mouseY;
+let x = 100;
+let y = 100;
 
 function draw() {
   background(0);
