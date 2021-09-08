@@ -8,7 +8,7 @@ let y = 100;
 function draw() {
   background(0);
   fill(255,0,0);
-  ellipse(x, y, 50, 50);
+  ellipse(mouseX, mouseY, 50, 50);
 
 
   for(let i=0; i<10; i++){
