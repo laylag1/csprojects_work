@@ -9,14 +9,21 @@ function setup() {
   }
 }
 
-let x = 100;
-let y = 100;
+let x = mouseX;
+let y = mouseY;
+let w = 50;
+let wSize = 1;
 
 function draw() {
   background(0);
   fill(255,0,0);
-  ellipse(x, y, 50, 50);
+  ellipse(x, y, w, 50);
 
+  if (w > width-50){
+    w -= wSize;
+  }else if(w < 50){
+    w+=wSize;
+  }
 
 }
 
