@@ -9,14 +9,15 @@ let w = 50;
 
 function draw() {
 
+
+  if(w<50){
+    w++;
+  }else if(w>width-50){
+    w--;
+  }
+
   fill(255,0,0);
   ellipse(mouseX, mouseY, w, w);
-
-  if(w>width-50){
-    w--;
-  }else if(w<50){
-    w++;
-  }
 
 
   for(let i=0; i<10; i++){
