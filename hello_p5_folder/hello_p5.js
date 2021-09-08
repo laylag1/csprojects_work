@@ -1,23 +1,18 @@
 function setup() {
   createCanvas(400, 400);
-  background(0);
+
 
 }
 
 let x = 100;
 let y = 100;
-let w = 50;
-let wSize = 1;
 
 function draw() {
+  background(0);
   fill(255,0,0);
-  ellipse(x, y, w, 50);
+  ellipse(x, y, 50, 50);
 
-  if (w > width-50){
-    w -= wSize;
-  }else if(w < 50){
-    w+=wSize;
-  }
+  
   for(let i=0; i<10; i++){
     fill(random(256),random(256),random(256));
     let x1 = random(0,width);
