@@ -1,11 +1,11 @@
 function setup() {
   createCanvas(400, 400);
-
+  background(0);
 
 }
 
-let x = mouseX;
-let y = mouseY;
+let x = 100;
+let y = 100;
 let w = 50;
 let wSize = 1;
 
