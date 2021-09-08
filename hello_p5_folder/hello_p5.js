@@ -5,12 +5,12 @@ function setup() {
 
 let x = 100;
 let y = 100;
-let w = 50;
+let w = 49;
 
 function draw() {
 
 
-  if(w<=50){
+  if(w<50){
     w++;
   }else if(w>width-50){
     w--;
