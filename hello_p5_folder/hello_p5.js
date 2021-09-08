@@ -10,7 +10,7 @@ let w = 50;
 function draw() {
 
 
-  if(w<50){
+  if(w<=50){
     w++;
   }else if(w>width-50){
     w--;
