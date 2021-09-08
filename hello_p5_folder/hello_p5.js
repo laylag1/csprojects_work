@@ -10,11 +10,11 @@ let w = 50;
 function draw() {
 
   fill(255,0,0);
-  ellipse(mouseX, mouseY, w, 50);
+  ellipse(mouseX, mouseY, w, w);
 
-  if(w>width-100){
+  if(w>width-50){
     w--;
-  }else if(w<100){
+  }else if(w<50){
     w++;
   }
 
