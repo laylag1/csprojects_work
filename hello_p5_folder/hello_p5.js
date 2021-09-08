@@ -5,11 +5,18 @@ function setup() {
 
 let x = 100;
 let y = 100;
+let w = 50;
 
 function draw() {
 
   fill(255,0,0);
-  ellipse(mouseX, mouseY, 50, 50);
+  ellipse(mouseX, mouseY, w, 50);
+
+  if(w>width-100){
+    w--;
+  }else if(w<100){
+    w++;
+  }
 
 
   for(let i=0; i<10; i++){
